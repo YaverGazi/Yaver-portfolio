@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yaver Gaziyev - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+   
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Yaver Gaziyev
+          <div class="contact_info">
+         
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          qaziyev90@mail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-phone"/>
+          017156764598
+         </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendation">Recommendation</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://thumbs.dreamstime.com/b/man-profile-cartoon-smiling-vector-illustration-graphic-design-135443492.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Yaver Gaziyev! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            I am grateful for the trust you have placed in me, as it has given me the confidence to take on new challenges and stretch my abilities. Your belief in my potential has been a driving force behind my achievements, and I am eager to continue learning and contributing under your guidance.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+        
+            <div class="skill">
+                <img src="https://pluspng.com/img-png/bootstrap-png-bootstrap-512.png"/>
+                <h6>Bootstrap</h6>
+                <p>3 years experience</p>
+              </div>
+           
+        
+          <div class="skill">
+            <img src="https://clipground.com/images/css-3-logo-clipart.jpg"/>
+            <h6>css</h6>
+            <p>3 years experience</p>
+          </div>
+       
+     
+      <div class="skill">
+        <img src="https://i.pinimg.com/originals/b7/0a/bf/b70abf74358f0bc46e7087630fb3f8aa.jpg"/>
+        <h6>Flex Box</h6>
+        <p>3 years experience</p>
+      </div>
+   
+  </div>  
+
+ </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Mypages
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Respansive webpages</h3>
+            <ul>
+              <li>
+            
+                Responsive webpages refer to websites that are designed and developed to provide an optimal viewing and user experience across different devices and screen sizes.  </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>
+                projects with Bootstrap
+            </h3>
+            <ul>
+              <li>Bootstrap is an excellent choice for creating engaging landing pages for marketing campaigns or product launches. </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Game projects</h3>
+            <ul>
+              <li>Begin by brainstorming and defining the concept of your game. Determine the genre, gameplay mechanics, and target audience. Create a design document outlining the game's storyline</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          As a beginner coder, 'CodeQuest' provided an engaging and educational journey. Its interactive lessons and challenges made learning coding concepts a breeze. Highly recommended for aspiring programmers
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          "I was blown away by the comprehensive curriculum and hands-on projects offered by 'CodeGenius.' It's an excellent coding platform that transformed my skills and empowered me to tackle complex programming tasks.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          With 'ByteMaster,' coding became a fun adventure! Its gamified approach, interactive coding puzzles, and friendly interface made learning programming languages an enjoyable experience. 
+          <span>&#8221;</span>
+        </div>
+        
+            <div class="recommendation">
+                <span>&#8220;</span>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam a eveniet hic perspiciatis corporis similique. Illum totam distinctio dolorem veniam, quaerat, quasi eos quos, deleniti voluptas illo nemo labore.
+                <span>&#8221;</span>
+              </div>
+          
+         
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3> "I wanted to share some feedback we received about Yaver from their colleagues. They describe Yaver as a reliable and supportive team player, always ready to lend a hand and contribute to the team's success."</h3>
+      <h3>"We recently conducted a survey among Yaver's clients, and the responses were overwhelmingly positive. Clients appreciate Yaver's professionalism, expertise, and excellent communication skills, making them a trusted and valuable partner.</h3>
+      <h3>"I spoke with Yaver's supervisor, and they had nothing but praise for Yaver's work. They mentioned how Yaver consistently exceeds expectations, shows great initiative, and consistently delivers high-quality results."</h3>
+      <h3>"In a recent performance review, Yaver's peers expressed their admiration for their strong problem-solving abilities, adaptability, and positive attitude. Yaver is seen as a dependable and proactive team member who consistently goes above and beyond."</h3>
+      <button onclick="showPopup(true)">Ok</button>
+    </div>
+  
+  </body>
+</html>
